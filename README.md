@@ -3,7 +3,7 @@
 Petite appli de flashcards de vocabulaire avec répétition espacée (SRS), pensée mobile d'abord.
 Stack : Vite + React + TypeScript + Tailwind CSS, données dans Supabase (Postgres + Auth),
 algorithme de planification **FSRS** via [`ts-fsrs`](https://github.com/open-spaced-repetition/ts-fsrs).
-Déployée en statique sur GitHub Pages, à l'adresse `https://romainbarbier-0.github.io/flaschard-superchinese/`.
+Déployée en statique sur GitHub Pages, à l'adresse `https://romainbarbier-0.github.io/Flaschard-Superchinese/`.
 
 ## 1. Créer les tables dans Supabase (une seule fois)
 
@@ -46,7 +46,7 @@ Deux réglages à faire une seule fois côté GitHub, dans les **Settings** de c
    - `VITE_SUPABASE_ANON_KEY`
 
 Une fois ces deux étapes faites, chaque push sur `main` republie automatiquement le site à
-`https://romainbarbier-0.github.io/flaschard-superchinese/`. Tu peux aussi déclencher un
+`https://romainbarbier-0.github.io/Flaschard-Superchinese/`. Tu peux aussi déclencher un
 déploiement manuellement depuis l'onglet **Actions** du repo (bouton "Run workflow").
 
 ## Pourquoi FSRS et ces réglages ?
